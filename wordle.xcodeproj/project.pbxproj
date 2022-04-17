@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C832E9CC280954DD00AED2AD /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C832E9CB280954DD00AED2AD /* resultViewController.swift */; };
+		C832E9CE2809E05000AED2AD /* desesperebolo-9006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C832E9CD2809E05000AED2AD /* desesperebolo-9006.mp3 */; };
+		C832E9D2280B00C900AED2AD /* scrollVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C832E9D1280B00C900AED2AD /* scrollVIew+Extensions.swift */; };
 		C887FD0127FECBBA0070BEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD0027FECBBA0070BEF4 /* AppDelegate.swift */; };
 		C887FD0327FECBBA0070BEF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD0227FECBBA0070BEF4 /* SceneDelegate.swift */; };
-		C887FD0527FECBBA0070BEF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD0427FECBBA0070BEF4 /* ViewController.swift */; };
 		C887FD0827FECBBA0070BEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C887FD0627FECBBA0070BEF4 /* Main.storyboard */; };
 		C887FD0A27FECBBA0070BEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C887FD0927FECBBA0070BEF4 /* Assets.xcassets */; };
 		C887FD0D27FECBBA0070BEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C887FD0B27FECBBA0070BEF4 /* LaunchScreen.storyboard */; };
+		C887FD1527FECBD20070BEF4 /* wordleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD1427FECBD20070BEF4 /* wordleViewController.swift */; };
+		C887FD1A27FFDB7D0070BEF4 /* GameQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD1927FFDB7D0070BEF4 /* GameQuestions.swift */; };
+		C887FD1C27FFDB850070BEF4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C887FD1B27FFDB850070BEF4 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C832E9CB280954DD00AED2AD /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		C832E9CD2809E05000AED2AD /* desesperebolo-9006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "desesperebolo-9006.mp3"; sourceTree = "<group>"; };
+		C832E9D1280B00C900AED2AD /* scrollVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "scrollVIew+Extensions.swift"; sourceTree = "<group>"; };
 		C887FCFD27FECBBA0070BEF4 /* wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C887FD0027FECBBA0070BEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C887FD0227FECBBA0070BEF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C887FD0427FECBBA0070BEF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C887FD0727FECBBA0070BEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C887FD0927FECBBA0070BEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C887FD0C27FECBBA0070BEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C887FD0E27FECBBA0070BEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C887FD1427FECBD20070BEF4 /* wordleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordleViewController.swift; sourceTree = "<group>"; };
+		C887FD1927FFDB7D0070BEF4 /* GameQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuestions.swift; sourceTree = "<group>"; };
+		C887FD1B27FFDB850070BEF4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		C887FCFF27FECBBA0070BEF4 /* wordle */ = {
 			isa = PBXGroup;
 			children = (
+				C832E9CD2809E05000AED2AD /* desesperebolo-9006.mp3 */,
 				C887FD0027FECBBA0070BEF4 /* AppDelegate.swift */,
 				C887FD0227FECBBA0070BEF4 /* SceneDelegate.swift */,
-				C887FD0427FECBBA0070BEF4 /* ViewController.swift */,
-				C887FD0627FECBBA0070BEF4 /* Main.storyboard */,
+				C887FD1727FECBED0070BEF4 /* models */,
+				C887FD1827FECBF60070BEF4 /* views */,
+				C887FD1627FECBDF0070BEF4 /* viewControllers */,
 				C887FD0927FECBBA0070BEF4 /* Assets.xcassets */,
 				C887FD0B27FECBBA0070BEF4 /* LaunchScreen.storyboard */,
 				C887FD0E27FECBBA0070BEF4 /* Info.plist */,
 			);
 			path = wordle;
+			sourceTree = "<group>";
+		};
+		C887FD1627FECBDF0070BEF4 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C887FD1427FECBD20070BEF4 /* wordleViewController.swift */,
+				C832E9CB280954DD00AED2AD /* resultViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C887FD1727FECBED0070BEF4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C887FD1B27FFDB850070BEF4 /* GameState.swift */,
+				C887FD1927FFDB7D0070BEF4 /* GameQuestions.swift */,
+				C832E9D1280B00C900AED2AD /* scrollVIew+Extensions.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C887FD1827FECBF60070BEF4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C887FD0627FECBBA0070BEF4 /* Main.storyboard */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C832E9CE2809E05000AED2AD /* desesperebolo-9006.mp3 in Resources */,
 				C887FD0D27FECBBA0070BEF4 /* LaunchScreen.storyboard in Resources */,
 				C887FD0A27FECBBA0070BEF4 /* Assets.xcassets in Resources */,
 				C887FD0827FECBBA0070BEF4 /* Main.storyboard in Resources */,
@@ -138,8 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C887FD0527FECBBA0070BEF4 /* ViewController.swift in Sources */,
+				C887FD1527FECBD20070BEF4 /* wordleViewController.swift in Sources */,
 				C887FD0127FECBBA0070BEF4 /* AppDelegate.swift in Sources */,
+				C887FD1C27FFDB850070BEF4 /* GameState.swift in Sources */,
+				C832E9CC280954DD00AED2AD /* resultViewController.swift in Sources */,
+				C832E9D2280B00C900AED2AD /* scrollVIew+Extensions.swift in Sources */,
+				C887FD1A27FFDB7D0070BEF4 /* GameQuestions.swift in Sources */,
 				C887FD0327FECBBA0070BEF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
